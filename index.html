@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./doc/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./doc/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./doc/favicon-16x16.png">
+    <link rel="manifest" href="./doc/site.webmanifest">
+
     <title>Layna | Java Full Stack Developer</title>
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- local css  -->
     <link rel="stylesheet" href="./index.css">
@@ -15,10 +23,8 @@
     <!-- header -->
 
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo">Layna</a>
 
-        <!-- <i class='bxr  bx-menu' id="menu-icon" ></i>  -->
-        <i class="fa fa-bars" id="menu-icon" ></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
@@ -35,13 +41,13 @@
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Layna Sekar</h1>
-            <h3>And I'm a <span>Java FullStack Developer</span></h3>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>I am a dedicated Java Full Stack Developer with a strong foundation in core Java, Spring Boot, SQL, and front-end technologies like HTML, CSS, and JavaScript. I enjoy building responsive web applications, solving real-world problems through code, and continuously learning to stay updated with the latest tech trends.</p>
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/laynas/"><i class="fa fa-linkedin-square"></i></a> <!-- linkedin -->
-                <a href="https://github.com/layna411"><i class="fa fa-github"></i></a>  <!-- github -->
-                <a href="#"><i class="fa fa-instagram"></i></a> <!--Instagram-->
-                <a href="#"><i class="fa fa-facebook-f"></i></a>  <!--FaceBook-->
+                <a href="https://www.linkedin.com/in/laynas/" target="_blank"><i class="fa fa-linkedin-square"></i></a> <!-- linkedin -->
+                <a href="https://github.com/layna411" target="_blank"><i class="fa fa-github"></i></a>  <!-- github -->
+                <a href="https://www.instagram.com/yours_layn22?igsh=Mm1jbHdrcjlnaXVk" target="_blank"><i class="fa fa-instagram"></i></a> <!--Instagram-->
+                <a href="https://www.facebook.com/share/1ExPCHkFa7/" target="_blank"><i class="fa fa-facebook-f"></i></a>  <!--FaceBook-->
             </div>
             <a href="./doc/Layna_S_Java_Developer.pdf" class="btn">Download Resume</a>
         </div>
@@ -137,6 +143,61 @@
         </div>
     </div>
 </section>
+
+
+
+<!-- contact Area -->
+
+    <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form id="contact-form" action="https://formsubmit.co/layna4115@gmail.com" method="POST">
+    <div class="input-box">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+    </div>
+
+    <div class="input-box">
+      <input type="text" name="subject" placeholder="Subject">
+    </div>
+
+    <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+
+    <!-- FormSubmit settings -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_autoresponse" value="Thanks for reaching out to Layna. I'll reply as soon as possible.">
+
+    <input type="submit" value="Send Message" class="btn">
+  </form>
+
+  <p id="form-status" class="success-msg" style="display: none;">✅ Message sent successfully!</p>
+</section>
+
+<!-- footer -->
+
+<footer class="footer">
+  <div class="footer-container">
+    <h3>Layna S</h3>
+    <p>Java Full Stack Developer | Innovating Tomorrow's Web</p>
+
+    <div class="social-icons">
+      <a href="https://github.com/layna411" target="_blank"><i class='fab fa-github'></i></a>
+      <a href="https://linkedin.com/in/layna411" target="_blank"><i class='fab fa-linkedin'></i></a>
+      <a href="mailto:layna4115@gmail.com"><i class='fas fa-envelope'></i></a>
+    </div>
+
+    <p class="copyright">
+      © 2025 Layna. All rights reserved.
+    </p>
+
+    <a href="#home" class="scroll-top"><i class="fas fa-angle-up"></i></a>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="./index.js"></script>
+  </div>
+</footer>
 
 
     

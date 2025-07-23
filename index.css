@@ -19,6 +19,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     font-size: 62.5%;
     overflow-x: hidden;
 }
@@ -44,6 +45,9 @@ section{
     justify-content: space-around;
     align-items: center;
     z-index: 100;
+}
+.header a{
+    color: var(--main-color);
 }
 
 .logo{
@@ -174,7 +178,7 @@ span{
 
                       /* Skills */
 .skills {
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     padding: 10rem 9% 2rem;
 }
 
@@ -195,7 +199,7 @@ span{
 }
 
 .skills-box {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     padding: 3rem 2rem;
     border-radius: 2rem;
     text-align: left;
@@ -218,7 +222,7 @@ span{
 .skills-box h3 {
     font-size: 2.4rem;
     margin-bottom: 1rem;
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 .skills-box ul {
@@ -319,3 +323,123 @@ span{
     }
 }
 
+
+/* contact Area */
+
+.contact {
+    background: var(--second-bg-color);
+    padding: 10rem 9% 2rem;
+    text-align: center;
+}
+
+.contact .heading {
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+}
+
+.contact .heading span {
+    color: var(--main-color);
+}
+
+.contact form {
+    max-width: 700px;
+    margin: auto;
+    background: var(--bg-color);
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.input-box input,
+textarea {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border: .2rem solid var(--main-color);
+    border-radius: 1rem;
+    resize: none;
+    margin-top: 1.5rem;
+}
+
+.input-box input {
+    width: 48%;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* Success message */
+.success-msg {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: #0f0;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.footer-container h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer-container p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #bbb;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00f7ff;
+}
+
+.scroll-top {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #00f7ff;
+  color: #000;
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.scroll-top:hover {
+  background: #00c6d7;
+}
+
+
+
+/* header nav a.active {
+  color: #00f7ff;
+  border-bottom: 2px solid #00f7ff;
+} */
